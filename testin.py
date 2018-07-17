@@ -1,9 +1,8 @@
 #!/usr/bin/python3
  
 import pymysql
-f = open("../output.txt","r") 
+f = open("./output.txt","r") 
 
-# 打开数据库连接
 db = pymysql.connect("localhost","test","1","TEST" )
  
 # 使用 cursor() 方法创建一个游标对象 cursor
